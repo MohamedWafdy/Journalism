@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.body{
+    padding: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-top: 10em;
+    padding-bottom: 3em;
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+a:hover{
+    color: rgb(0, 0, 100);
+}
+.ContCon{
+    color: rgb(165, 0, 0);
+}
+.ContCon:hover{
+    color: rgb(160, 160, 15);
+}
+h2{
+    font-size: 1.7em;
+    color: rgb(0, 0, 150);
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-flex;
+    padding: 2em;
+    font-size: 1.1em;
+}
+.navbar{
+    background-color: rgb(165, 0, 0);
+    width: 100%;
+    position: fixed;
+}
+.navbar-right{
+    padding-left: 50em;
+    justify-content: right;
+}
+.navbar-header{
+    color: lightgrey;
+    font-size: 1.5em;
+    padding: 0.5em;
+    padding-left: 3em;
+}
+
+.container{
+    position: relative;
+}
+
+.footer-padding{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgba(113, 110, 110, 0.341);
+    position: relative;
+    bottom: 0;
+}
+
+#comp{
+    padding-left:5.7em;
+    margin-top: 3em;
+}
+form{
+    padding: 2em;
+    text-align: center;
+}
+label{
+    padding-right: 56em;
+}
+#title{
+    border: 0.1em solid gray;
+    border-radius: 1em;
+    padding: 1em;
+    width: 70em;
+    height: 2em;
+    background-color: snow;
+    margin-bottom: 1em;
+}
+#title:focus{
+    outline: none;
+    border-color: rgba(255, 0, 0, 0.541);
+}
+#publish{
+    border: 0.1em solid gray;
+    border-radius: 1em;
+    padding: 1em;
+    width: 70em;
+    height: 10em;
+    background-color: snow;
+}
+#publish:focus{
+    outline: none;
+    border-color: rgba(255, 0, 0, 0.541);
+    
+}
+#submit{
+    border: 0.1em solid rgb(117, 138, 164);
+    border-radius: 5em;
+    padding: 1em;
+    margin-top: 2em;
+    width: 13em;
+    height: 4em;
+    background-color: snow;
+}
+#submit:hover{
+    background-color: rgba(255, 0, 0, 0.541);
+}
