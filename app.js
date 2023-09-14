@@ -92,6 +92,8 @@ app.get(`/posts/:PostName`, (req, res)=>{
 app.post(`/posts/:PostName`, (req, res)=>{
 })
 
+module.exports = app
+
 app.listen(port, ()=>{
     console.log(`Server is listening on port ${port}`);
 });
